@@ -1,30 +1,22 @@
-# Calorie Tracking App
+# Calorie Tracker App
+# !! EARLY STAGE DEVELOPMENT !!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Calorie Tracker App! This is an open-source, free-to-use calorie tracking application that helps you monitor your daily food intake through a simple and intuitive interface. The app features a barcode scanner and a comprehensive food database to make tracking your calories as easy as possible.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Barcode Scanner**: Quickly scan food items to retrieve nutritional information.
+- **Food Database**: Access a vast database of foods to find nutritional details easily.
+- **User-friendly Interface**: Clean and responsive design powered by TailwindCSS.
+- **Cross-platform Support**: Node.js backend with a forthcoming Java Spring Boot alternative.
+- **Secure and Reliable**: Utilizing SQL for database management.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Frontend**: TypeScript, TailwindCSS
+- **Backend**: Node.js
+- **Database**: SQL
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Made with ❤️
